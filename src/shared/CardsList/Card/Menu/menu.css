@@ -47,6 +47,10 @@
     margin: 0 0 0 auto;
   }
 
+  .dropdown {
+    top: 19px;
+  }
+
   .menuButton {
     align-self: center;
     transform: unset;
@@ -54,7 +58,20 @@
 }
 
 @media all and (min-width: 1540px) {
+  .dropdown {
+    position: relative;
+    min-width: 157px;
+    min-width: 159px;
+    top: 19px;
+    right: 60px;
+  }
+
+  .closeButton {
+    display: none;
+  }
+
   .menuButton:hover {
     background-color: rgba(51, 51, 51, 0.1);
   }
+
 }
